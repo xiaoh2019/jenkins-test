@@ -25,6 +25,9 @@ public class HelloController {
     public Map mapTest(){
         HashMap<String, String> map = new HashMap<>();
         map.put("唐僧","one");
+        map.put("孙悟空","two");
+        map.put("猪八戒","three");
+        map.put("沙和尚","four");
         return map;
     }
 
