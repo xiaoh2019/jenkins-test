@@ -24,10 +24,10 @@ public class HelloController {
     @RequestMapping("/map")
     public Map mapTest(){
         HashMap<String, String> map = new HashMap<>();
-        map.put("唐僧","one");
-        map.put("孙悟空","two");
-        map.put("猪八戒","three");
-        map.put("沙和尚","four");
+        map.put("唐僧","one1");
+        map.put("孙悟空","two1");
+        map.put("猪八戒","three1");
+        map.put("沙和尚","four1");
         return map;
     }
 
