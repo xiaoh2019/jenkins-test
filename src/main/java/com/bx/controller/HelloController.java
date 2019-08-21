@@ -16,7 +16,7 @@ public class HelloController {
 
     @RequestMapping("/jenkins")
     public String jenkinsTest(){
-        return "jenkins1";
+        return "jenkins 2";
     }
 
 }
