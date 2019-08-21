@@ -11,7 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/")
     public String hello(){
-        return "hello+tieshangongzhu";
+        return "hello tieshangongzhu";
+    }
+
+    @RequestMapping("/jenkins")
+    public String jenkinsTest(){
+        return "jenkins1";
     }
 
 }
