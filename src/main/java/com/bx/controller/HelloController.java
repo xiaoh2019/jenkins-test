@@ -3,6 +3,9 @@ package com.bx.controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author xiaoh
  * @create 2019-08-19-14:42
@@ -17,6 +20,12 @@ public class HelloController {
     @RequestMapping("/jenkins")
     public String jenkinsTest(){
         return "jenkins test 3";
+    }
+    @RequestMapping("/map")
+    public Map mapTest(){
+        HashMap<String, String> map = new HashMap<>();
+        map.put("唐僧","one");
+        return map;
     }
 
 }
